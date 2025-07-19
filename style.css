@@ -169,6 +169,66 @@ body {
   font-weight: bold;
   border-bottom: 2px solid #00bfa6;
 }
+@media (max-width: 768px) {
+  .new-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    height: auto;
+  }
+
+  .navbar-left {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .college-logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .club-details {
+    line-height: 1.2;
+  }
+
+  .college-name {
+    font-size: 12px;
+  }
+
+  .club-name {
+    font-size: 18px;
+  }
+
+  .tagline {
+    font-size: 12px;
+  }
+
+  .navbar-center {
+    width: 100%;
+    margin-top: 12px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 12px;
+    padding: 0;
+  }
+
+  .navbar-center .nav-links a {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .navbar-right {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .navbar-right .year-selector {
+    width: 100%;
+  }
+}
 
 /* Hero section styling for reference */
 .hero {
