@@ -632,6 +632,20 @@ body {
   max-width: 600px;
 }
 
+.loader {
+  border: 6px solid #e5e7eb;
+  border-top: 6px solid #0284c7;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 
 @media (max-width: 600px) {
   .event-left {
