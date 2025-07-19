@@ -662,6 +662,19 @@ body {
   font-size: 16px;
   color: #374151;
 }
+.no-event-message {
+  background-color: #f8f9fb;
+  border: 1px solid #d1d5db;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
 @media (max-width: 600px) {
   .event-left {
     flex-direction: column;
