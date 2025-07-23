@@ -506,12 +506,7 @@ body {
   transform: scale(0.97);
 }
 
-.team-card:hover {
-  backdrop-filter: blur(0);
-  background: #fff;
-  opacity: 1;
-  transform: scale(1.02);
-}
+
 
 /* Profile Image */
 .profile-pic {
