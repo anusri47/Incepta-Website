@@ -524,6 +524,13 @@ body {
   height: 100%;
   object-fit: cover;
 }
+.team-card,
+.profile-pic img {
+  filter: none !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+}
+
 
 /* Name */
 .team-card h3 {
