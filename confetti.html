@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Launch</title>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+  <style>
+    body {
+      background: #0a0f2c;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 20px;
+      background: #00c2cb;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 8px 16px rgba(0, 194, 203, 0.4);
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #00a5ae;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to the InceptaCore Website Inauguration</h1>
+  <button onclick="launchWebsite()">Launch Website</button>
+
+  <script>
+    function launchWebsite() {
+      // Confetti burst animation
+      confetti({
+        particleCount: 200,
+        spread: 120,
+        origin: { y: 0.6 }
+      });
+
+      // Optional sound effect
+      const audio = new Audio("https://assets.mixkit.co/sfx/preview/mixkit-magical-appear-628.mp3");
+      audio.play();
+
+      // Simulate delay and then redirect to actual site
+      setTimeout(() => {
+        window.location.href = "https://your-website-url.com"; // 🔁 Replace with your real site
+      }, 3000); // Wait 3 seconds before redirect
+    }
+  </script>
+
+</body>
+</html>
