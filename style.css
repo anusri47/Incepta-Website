@@ -700,6 +700,23 @@ body {
     text-align: center;
   }
 }
+.event-poster {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.event-poster img {
+  width: 100%;          /* takes full width of its container */
+  max-width: 600px;     /* won’t stretch too large on big screens */
+  height: auto;         /* keeps aspect ratio */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.event-poster img:hover {
+  transform: scale(1.03);
+}
 
 
 .no-event-message {
@@ -969,4 +986,5 @@ body {
   font-size: 13px;
   color: #94a3b8;
 }
+
 
