@@ -966,6 +966,20 @@ body {
 .footer-right .footer-social {
   margin-top: 10px;
 }
+.social-icons a:hover,
+.footer-social a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons .fa-linkedin,
+.footer-social .fa-linkedin-in {
+  color: #0a66c2;
+}
+
+.social-icons .fa-instagram,
+.footer-social .fa-instagram {
+  color: #e1306c;
+}
 
 .social-btn {
   background: transparent;
@@ -1170,3 +1184,4 @@ body {
     height: 180px;
   }
 }
+
